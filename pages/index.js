@@ -6,7 +6,7 @@ import Image from 'next/image'
 export default function Home({ posts }) {
   return (
     <main>
-          <div className="posts">
+          <div>
       {posts !== undefined &&
         posts.map((p) => {
           let title = p.title[0].text
